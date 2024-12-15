@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Steganography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            color: #718096;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 1rem;
+            background: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .tab.active {
+            background: #4299e1;
+            color: white;
+        }
+
+        .panel {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #4a5568;
+        }
+
+        .form-group input[type="file"] {
+            width: 100%;
+            padding: 0.5rem;
+            border: 2px dashed #e2e8f0;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .button {
+            background: #4299e1;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #3182ce;
+        }
+
+        .result {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: #f7fafc;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .error {
+            color: #e53e3e;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        .loading::after {
+            content: "Processing...";
+            color: #718096;
+        }
+
+        .hint {
+            display: block;
+            color: #718096;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            color: #2d3748;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.25rem;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #4a5568;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #4299e1;
+        }
+
+        .username {
+            color: #718096;
+            font-weight: 500;
+        }
+
+        .logout-btn {
+            background: #4299e1;
+            color: white !important;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: background 0.3s !important;
+        }
+
+        .logout-btn:hover {
+            background: #3182ce !important;
+        }
+
+        .key-input-group {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease-out;
+        }
+
+        .key-input-group.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .info-message {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem;
+            background: #ebf8ff;
+            color: #2b6cb0;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .info-message svg {
+            flex-shrink: 0;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input[type="password"]:focus {
+            outline: none;
+            border-color: #4299e1;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+        }
+
+        .info-message {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem;
+            background: #ebf8ff;
+            color: #2b6cb0;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">Audio Steganography</a>
+            <div class="nav-links">
+                <a href="/history">History</a>
+                <span class="username">{{ current_user.username }}</span>
+                <a href="/logout" class="logout-btn">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <h1>Audio Steganography</h1>
+            <p>Hide secret messages in audio files or decode hidden messages</p>
+            <a href="/history" style="color: #4299e1; text-decoration: none; margin-top: 0.5rem; display: inline-block;">
+                View Operation History
+            </a>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('encode')">Encode Message</button>
+            <button class="tab" onclick="switchTab('decode')">Decode Message</button>
+        </div>
+
+        <div class="panel" id="encode-panel">
+            <form id="encode-form">
+                <div class="form-group">
+                    <label>Upload WAV File</label>
+                    <input type="file" accept=".wav" required>
+                </div>
+                <div class="form-group">
+                    <label>Secret Message</label>
+                    <textarea required placeholder="Enter your secret message here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Encryption Key (Optional)</label>
+                    <input type="password" name="key" placeholder="Enter a secret key">
+                    <small class="hint">Leave empty for no encryption</small>
+                </div>
+                <button type="submit" class="button">Encode Message</button>
+            </form>
+            <div class="loading"></div>
+            <div class="result"></div>
+        </div>
+
+        <div class="panel" id="decode-panel" style="display: none;">
+            <form id="decode-form">
+                <div class="form-group">
+                    <label>Upload Encoded WAV File</label>
+                    <input type="file" accept=".wav" required>
+                </div>
+                <div class="form-group">
+                    <label>Decryption Key (Optional)</label>
+                    <input type="password" name="decode-key" placeholder="Enter decryption key if message is encrypted">
+                    <small class="hint">Only required if the message was encrypted</small>
+                </div>
+                <button type="submit" class="button">Decode Message</button>
+            </form>
+            <div class="loading"></div>
+            <div class="result"></div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tab) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelector(`[onclick="switchTab('${tab}')"]`).classList.add('active');
+            
+            document.getElementById('encode-panel').style.display = tab === 'encode' ? 'block' : 'none';
+            document.getElementById('decode-panel').style.display = tab === 'decode' ? 'block' : 'none';
+        }
+
+        document.getElementById('encode-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const form = e.target;
+            const key = form.querySelector('input[name="key"]').value;
+            
+            if (key && key.length < 4) {
+                const result = form.nextElementSibling.nextElementSibling;
+                result.innerHTML = `<div class="error">Encryption key must be at least 4 characters long</div>`;
+                result.style.display = 'block';
+                return;
+            }
+            
+            const loading = form.nextElementSibling;
+            const result = loading.nextElementSibling;
+            
+            try {
+                loading.style.display = 'block';
+                result.style.display = 'none';
+                
+                const formData = new FormData();
+                formData.append('audio', form.querySelector('input[type="file"]').files[0]);
+                formData.append('message', form.querySelector('textarea').value);
+                formData.append('key', form.querySelector('input[name="key"]').value);
+                
+                const response = await fetch('/encode', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'encoded.wav';
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    
+                    result.innerHTML = 'Message encoded successfully! File downloaded automatically.';
+                    result.style.display = 'block';
+                } else {
+                    const data = await response.json();
+                    throw new Error(data.error);
+                }
+            } catch (error) {
+                result.innerHTML = `Error: ${error.message}`;
+                result.style.display = 'block';
+            } finally {
+                loading.style.display = 'none';
+            }
+        });
+
+        document.getElementById('decode-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const form = e.target;
+            const loading = form.nextElementSibling;
+            const result = loading.nextElementSibling;
+            const keyInput = form.querySelector('input[name="decode-key"]');
+            
+            try {
+                loading.style.display = 'block';
+                result.style.display = 'none';
+                
+                const formData = new FormData();
+                formData.append('audio', form.querySelector('input[type="file"]').files[0]);
+                if (keyInput.value) {
+                    formData.append('key', keyInput.value);
+                }
+                
+                const response = await fetch('/decode', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    if (data.needs_key) {
+                        // Show message about encryption
+                        result.innerHTML = `
+                            <div class="info-message">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                </svg>
+                                This message is encrypted. Please enter the decryption key.
+                            </div>`;
+                        keyInput.focus();
+                        keyInput.style.borderColor = '#4299e1';
+                        keyInput.style.boxShadow = '0 0 0 3px rgba(66, 153, 225, 0.1)';
+                    } else {
+                        result.innerHTML = `
+                            <div style="word-break: break-all;">
+                                <strong>Decoded message:</strong><br>
+                                ${data.message}
+                            </div>`;
+                        keyInput.style.borderColor = '';
+                        keyInput.style.boxShadow = '';
+                    }
+                } else {
+                    throw new Error(data.error || 'Failed to decode message');
+                }
+                
+                result.style.display = 'block';
+            } catch (error) {
+                result.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+                result.style.display = 'block';
+            } finally {
+                loading.style.display = 'none';
+            }
+        });
+
+        // Add handler for when key is provided
+        document.querySelector('input[name="decode-key"]').addEventListener('change', async (e) => {
+            const form = e.target.closest('form');
+            const loading = form.nextElementSibling;
+            const result = loading.nextElementSibling;
+            
+            if (e.target.value && e.target.value.length < 4) {
+                result.innerHTML = `<div class="error">Decryption key must be at least 4 characters long</div>`;
+                result.style.display = 'block';
+                return;
+            }
+            
+            if (e.target.value.length >= 8) {
+                try {
+                    loading.style.display = 'block';
+                    result.style.display = 'none';
+                    
+                    const formData = new FormData();
+                    formData.append('audio', form.querySelector('input[type="file"]').files[0]);
+                    formData.append('key', e.target.value);
+                    
+                    const response = await fetch('/decode', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    
+                    const data = await response.json();
+                    
+                    if (response.ok) {
+                        result.innerHTML = `
+                            <div style="word-break: break-all;">
+                                <strong>Decoded message:</strong><br>
+                                ${data.message}
+                            </div>`;
+                    } else {
+                        throw new Error(data.error || 'Failed to decode with provided key');
+                    }
+                } catch (error) {
+                    result.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+                } finally {
+                    loading.style.display = 'none';
+                    result.style.display = 'block';
+                }
+            }
+        });
+    </script>
+</body>
+</html> 

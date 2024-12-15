@@ -1,0 +1,759 @@
+2024-12-15 14:51:18,404 - WARNING -  * Debugger is active!
+2024-12-15 14:51:18,428 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 14:51:26,050 - INFO - 127.0.0.1 - - [15/Dec/2024 14:51:26] "GET / HTTP/1.1" 200 -
+2024-12-15 14:51:33,070 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 14:51:33,072 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 14:51:33,087 - INFO -  * Restarting with stat
+2024-12-15 14:51:34,082 - WARNING -  * Debugger is active!
+2024-12-15 14:51:34,102 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 14:51:36,899 - INFO - 127.0.0.1 - - [15/Dec/2024 14:51:36] "GET / HTTP/1.1" 200 -
+2024-12-15 14:51:51,643 - INFO - Starting encode request
+2024-12-15 14:51:51,675 - INFO - Saving file to uploads\Chorus.wav
+2024-12-15 14:51:51,682 - INFO - Starting encoding process
+2024-12-15 14:51:51,683 - INFO - Starting encoding process for file: uploads\Chorus.wav
+2024-12-15 14:51:51,739 - INFO - Message length: 13 characters
+2024-12-15 14:51:51,740 - INFO - Binary length: 104 bits
+2024-12-15 14:51:51,746 - INFO - Encoding completed successfully
+2024-12-15 14:51:51,748 - INFO - Modified bytes: 104
+2024-12-15 14:51:51,751 - INFO - Encoding time: 0.06 seconds
+2024-12-15 14:51:51,756 - INFO - Encoding successful
+2024-12-15 14:51:51,768 - INFO - Cleaned up temporary file uploads\Chorus.wav
+2024-12-15 14:51:51,780 - INFO - 127.0.0.1 - - [15/Dec/2024 14:51:51] "POST /encode HTTP/1.1" 200 -
+2024-12-15 14:52:25,194 - INFO - Starting decode request
+2024-12-15 14:52:25,208 - INFO - Saving file to uploads\encoded_1.wav
+2024-12-15 14:52:25,218 - INFO - Starting decoding process
+2024-12-15 14:52:25,241 - INFO - Starting decoding process for file: uploads\encoded_1.wav
+2024-12-15 14:52:25,769 - INFO - Extracted 948246 bits
+2024-12-15 14:52:25,771 - INFO - Decoding completed successfully
+2024-12-15 14:52:25,773 - INFO - Decoded message length: 8 characters
+2024-12-15 14:52:25,774 - INFO - Decoding time: 0.53 seconds
+2024-12-15 14:52:25,780 - INFO - Successfully decoded message of length 8
+2024-12-15 14:52:25,783 - INFO - Cleaned up temporary file uploads\encoded_1.wav
+2024-12-15 14:52:25,792 - INFO - 127.0.0.1 - - [15/Dec/2024 14:52:25] "POST /decode HTTP/1.1" 200 -
+2024-12-15 14:53:15,730 - INFO - 127.0.0.1 - - [15/Dec/2024 14:53:15] "GET / HTTP/1.1" 200 -
+2024-12-15 14:53:54,364 - INFO - Starting encode request
+2024-12-15 14:53:54,380 - INFO - Saving file to uploads\Chorus.wav
+2024-12-15 14:53:54,389 - INFO - Starting encoding process
+2024-12-15 14:53:54,390 - INFO - Using key-based encryption
+2024-12-15 14:53:54,390 - INFO - Starting encoding process for file: uploads\Chorus.wav
+2024-12-15 14:53:54,439 - INFO - Applying key-based scrambling to message
+2024-12-15 14:53:54,441 - INFO - Message length: 12 characters
+2024-12-15 14:53:54,442 - INFO - Binary length: 96 bits
+2024-12-15 14:53:54,445 - INFO - Encoding completed successfully
+2024-12-15 14:53:54,446 - INFO - Modified bytes: 96
+2024-12-15 14:53:54,447 - INFO - Encoding time: 0.06 seconds
+2024-12-15 14:53:54,448 - INFO - Encoding successful
+2024-12-15 14:53:54,451 - INFO - Cleaned up temporary file uploads\Chorus.wav
+2024-12-15 14:53:54,454 - INFO - 127.0.0.1 - - [15/Dec/2024 14:53:54] "POST /encode HTTP/1.1" 200 -
+2024-12-15 14:54:07,429 - INFO - Starting decode request
+2024-12-15 14:54:07,445 - INFO - Saving file to uploads\encoded.wav
+2024-12-15 14:54:07,462 - INFO - Starting decoding process
+2024-12-15 14:54:07,468 - INFO - Starting decoding process for file: uploads\encoded.wav
+2024-12-15 14:54:07,935 - INFO - Extracted 948246 bits
+2024-12-15 14:54:07,936 - INFO - Decoding completed successfully
+2024-12-15 14:54:07,937 - INFO - Decoded message length: 7 characters
+2024-12-15 14:54:07,938 - INFO - Decoding time: 0.47 seconds
+2024-12-15 14:54:07,943 - INFO - Successfully decoded message of length 7
+2024-12-15 14:54:07,945 - INFO - Cleaned up temporary file uploads\encoded.wav
+2024-12-15 14:54:07,949 - INFO - 127.0.0.1 - - [15/Dec/2024 14:54:07] "POST /decode HTTP/1.1" 200 -
+2024-12-15 14:55:29,924 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 14:55:30,209 - INFO -  * Restarting with stat
+2024-12-15 14:55:37,856 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 14:55:37,858 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 14:55:37,871 - INFO -  * Restarting with stat
+2024-12-15 14:55:39,156 - WARNING -  * Debugger is active!
+2024-12-15 14:55:39,188 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 14:55:41,401 - INFO - 127.0.0.1 - - [15/Dec/2024 14:55:41] "GET / HTTP/1.1" 200 -
+2024-12-15 14:56:01,498 - INFO - Starting encode request
+2024-12-15 14:56:01,514 - INFO - Saving file to uploads\Chorus.wav
+2024-12-15 14:56:01,522 - INFO - Starting encoding process
+2024-12-15 14:56:01,523 - INFO - Using key-based encryption
+2024-12-15 14:56:01,524 - INFO - Starting encoding process for file: uploads\Chorus.wav
+2024-12-15 14:56:01,570 - INFO - Maximum message length: 118530 characters
+2024-12-15 14:56:01,571 - INFO - Applying key-based scrambling to message
+2024-12-15 14:56:01,572 - INFO - Message length: 8 characters
+2024-12-15 14:56:01,572 - INFO - Binary length: 64 bits
+2024-12-15 14:56:01,576 - INFO - Encoding completed successfully
+2024-12-15 14:56:01,576 - INFO - Modified bytes: 64
+2024-12-15 14:56:01,578 - INFO - Encoding time: 0.05 seconds
+2024-12-15 14:56:01,579 - INFO - Encoding successful
+2024-12-15 14:56:01,581 - INFO - Cleaned up temporary file uploads\Chorus.wav
+2024-12-15 14:56:01,583 - INFO - 127.0.0.1 - - [15/Dec/2024 14:56:01] "POST /encode HTTP/1.1" 200 -
+2024-12-15 14:56:10,509 - INFO - Starting decode request
+2024-12-15 14:56:10,524 - INFO - Saving file to uploads\encoded.wav
+2024-12-15 14:56:10,532 - INFO - Starting decoding process
+2024-12-15 14:56:10,533 - INFO - Starting decoding process for file: uploads\encoded.wav
+2024-12-15 14:56:10,817 - INFO - Extracted 948246 bits
+2024-12-15 14:56:10,818 - INFO - Decoding completed successfully
+2024-12-15 14:56:10,819 - INFO - Decoded message length: 3 characters
+2024-12-15 14:56:10,819 - INFO - Decoding time: 0.29 seconds
+2024-12-15 14:56:10,823 - INFO - Successfully decoded message of length 3
+2024-12-15 14:56:10,825 - INFO - Cleaned up temporary file uploads\encoded.wav
+2024-12-15 14:56:10,828 - INFO - 127.0.0.1 - - [15/Dec/2024 14:56:10] "POST /decode HTTP/1.1" 200 -
+2024-12-15 14:56:19,094 - INFO - Starting decode request
+2024-12-15 14:56:19,110 - INFO - Saving file to uploads\encoded.wav
+2024-12-15 14:56:19,116 - INFO - Starting decoding process
+2024-12-15 14:56:19,117 - INFO - Using key-based decryption
+2024-12-15 14:56:19,118 - INFO - Starting decoding process for file: uploads\encoded.wav
+2024-12-15 14:56:19,427 - INFO - Extracted 948246 bits
+2024-12-15 14:56:19,428 - INFO - Applying key-based unscrambling to message
+2024-12-15 14:56:19,429 - INFO - Decoding completed successfully
+2024-12-15 14:56:19,430 - INFO - Decoded message length: 3 characters
+2024-12-15 14:56:19,430 - INFO - Decoding time: 0.31 seconds
+2024-12-15 14:56:19,435 - INFO - Successfully decoded message of length 3
+2024-12-15 14:56:19,436 - INFO - Cleaned up temporary file uploads\encoded.wav
+2024-12-15 14:56:19,439 - INFO - 127.0.0.1 - - [15/Dec/2024 14:56:19] "POST /decode HTTP/1.1" 200 -
+2024-12-15 14:57:18,135 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 14:57:18,229 - INFO -  * Restarting with stat
+2024-12-15 14:57:19,399 - WARNING -  * Debugger is active!
+2024-12-15 14:57:19,432 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 14:57:21,817 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 14:57:21,921 - INFO -  * Restarting with stat
+2024-12-15 14:57:23,203 - WARNING -  * Debugger is active!
+2024-12-15 14:57:23,233 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 14:57:31,690 - INFO - 127.0.0.1 - - [15/Dec/2024 14:57:31] "GET / HTTP/1.1" 200 -
+2024-12-15 14:59:58,279 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 14:59:58,406 - INFO -  * Restarting with stat
+2024-12-15 15:00:01,017 - WARNING -  * Debugger is active!
+2024-12-15 15:00:01,072 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:00:16,319 - INFO - 127.0.0.1 - - [15/Dec/2024 15:00:16] "GET / HTTP/1.1" 200 -
+2024-12-15 15:00:18,560 - INFO - 127.0.0.1 - - [15/Dec/2024 15:00:18] "[33mGET /history HTTP/1.1[0m" 404 -
+2024-12-15 15:00:20,819 - INFO - 127.0.0.1 - - [15/Dec/2024 15:00:20] "[33mGET /history HTTP/1.1[0m" 404 -
+2024-12-15 15:00:21,579 - INFO - 127.0.0.1 - - [15/Dec/2024 15:00:21] "[33mGET /history HTTP/1.1[0m" 404 -
+2024-12-15 15:00:21,818 - INFO - 127.0.0.1 - - [15/Dec/2024 15:00:21] "[33mGET /history HTTP/1.1[0m" 404 -
+2024-12-15 15:00:22,028 - INFO - 127.0.0.1 - - [15/Dec/2024 15:00:22] "[33mGET /history HTTP/1.1[0m" 404 -
+2024-12-15 15:00:30,502 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:00:30,504 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:00:30,522 - INFO -  * Restarting with stat
+2024-12-15 15:00:31,778 - WARNING -  * Debugger is active!
+2024-12-15 15:00:31,806 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:00:33,983 - INFO - 127.0.0.1 - - [15/Dec/2024 15:00:33] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:00:35,642 - INFO - 127.0.0.1 - - [15/Dec/2024 15:00:35] "GET / HTTP/1.1" 200 -
+2024-12-15 15:02:36,179 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:02:36,275 - INFO -  * Restarting with stat
+2024-12-15 15:04:51,563 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:04:51,565 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:04:51,571 - INFO -  * Restarting with stat
+2024-12-15 15:04:53,589 - WARNING -  * Debugger is active!
+2024-12-15 15:04:53,605 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:04:56,890 - INFO - 127.0.0.1 - - [15/Dec/2024 15:04:56] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-15 15:04:56,914 - INFO - 127.0.0.1 - - [15/Dec/2024 15:04:56] "GET /login?next=/ HTTP/1.1" 200 -
+2024-12-15 15:08:05,376 - INFO - 127.0.0.1 - - [15/Dec/2024 15:08:05] "GET /signup HTTP/1.1" 200 -
+2024-12-15 15:08:08,059 - INFO - 127.0.0.1 - - [15/Dec/2024 15:08:08] "GET /signup HTTP/1.1" 200 -
+2024-12-15 15:10:16,437 - INFO - 127.0.0.1 - - [15/Dec/2024 15:10:16] "GET /signup HTTP/1.1" 200 -
+2024-12-15 15:10:19,113 - INFO - 127.0.0.1 - - [15/Dec/2024 15:10:19] "GET /login HTTP/1.1" 200 -
+2024-12-15 15:10:20,643 - INFO - 127.0.0.1 - - [15/Dec/2024 15:10:20] "GET /signup HTTP/1.1" 200 -
+2024-12-15 15:10:51,191 - INFO - 127.0.0.1 - - [15/Dec/2024 15:10:51] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2024-12-15 15:10:51,203 - INFO - 127.0.0.1 - - [15/Dec/2024 15:10:51] "GET / HTTP/1.1" 200 -
+2024-12-15 15:10:57,384 - INFO - 127.0.0.1 - - [15/Dec/2024 15:10:57] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:14:22,399 - INFO - Starting encode request
+2024-12-15 15:14:22,407 - WARNING - Key too short
+2024-12-15 15:14:22,409 - INFO - 127.0.0.1 - - [15/Dec/2024 15:14:22] "[31m[1mPOST /encode HTTP/1.1[0m" 400 -
+2024-12-15 15:14:55,925 - INFO - Starting encode request
+2024-12-15 15:14:56,024 - INFO - Saving file to uploads\Jazz.wav
+2024-12-15 15:14:56,095 - INFO - Starting encoding process
+2024-12-15 15:14:56,105 - INFO - Starting encoding process for file: uploads\Jazz.wav
+2024-12-15 15:14:56,411 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:14:56,420 - INFO - Applying key-based scrambling to message
+2024-12-15 15:14:56,428 - INFO - Message length: 14 characters
+2024-12-15 15:14:56,444 - INFO - Binary length: 112 bits
+2024-12-15 15:14:56,479 - INFO - Encoding completed successfully
+2024-12-15 15:14:56,487 - INFO - Modified bytes: 112
+2024-12-15 15:14:56,490 - INFO - Encoding time: 0.37 seconds
+2024-12-15 15:14:56,495 - INFO - Encoding successful
+2024-12-15 15:14:56,503 - INFO - Cleaned up temporary file uploads\Jazz.wav
+2024-12-15 15:14:56,516 - INFO - 127.0.0.1 - - [15/Dec/2024 15:14:56] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:15:41,668 - INFO - Starting decode request
+2024-12-15 15:15:41,682 - INFO - Saving file to uploads\encoded_1.wav
+2024-12-15 15:15:41,689 - INFO - Starting decoding process
+2024-12-15 15:15:41,690 - INFO - Starting decoding process for file: uploads\encoded_1.wav
+2024-12-15 15:15:41,841 - INFO - Extracted 976398 bits
+2024-12-15 15:15:41,841 - INFO - Applying key-based unscrambling to message
+2024-12-15 15:15:41,842 - INFO - Decoding completed successfully
+2024-12-15 15:15:41,842 - INFO - Decoded message length: 9 characters
+2024-12-15 15:15:41,842 - INFO - Decoding time: 0.15 seconds
+2024-12-15 15:15:41,845 - INFO - Successfully decoded message of length 9
+2024-12-15 15:15:41,846 - INFO - Cleaned up temporary file uploads\encoded_1.wav
+2024-12-15 15:15:41,848 - INFO - 127.0.0.1 - - [15/Dec/2024 15:15:41] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:19:26,920 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:19:27,089 - INFO -  * Restarting with stat
+2024-12-15 15:19:34,426 - WARNING -  * Debugger is active!
+2024-12-15 15:19:34,460 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:19:51,197 - INFO - 127.0.0.1 - - [15/Dec/2024 15:19:51] "GET / HTTP/1.1" 200 -
+2024-12-15 15:19:52,997 - INFO - 127.0.0.1 - - [15/Dec/2024 15:19:52] "GET / HTTP/1.1" 200 -
+2024-12-15 15:19:53,333 - INFO - 127.0.0.1 - - [15/Dec/2024 15:19:53] "GET / HTTP/1.1" 200 -
+2024-12-15 15:20:02,181 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:20:02,182 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:20:02,185 - INFO -  * Restarting with stat
+2024-12-15 15:20:02,984 - WARNING -  * Debugger is active!
+2024-12-15 15:20:02,989 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:20:06,906 - INFO - 127.0.0.1 - - [15/Dec/2024 15:20:06] "GET / HTTP/1.1" 200 -
+2024-12-15 15:20:08,455 - INFO - 127.0.0.1 - - [15/Dec/2024 15:20:08] "GET / HTTP/1.1" 200 -
+2024-12-15 15:20:08,697 - INFO - 127.0.0.1 - - [15/Dec/2024 15:20:08] "GET / HTTP/1.1" 200 -
+2024-12-15 15:20:08,892 - INFO - 127.0.0.1 - - [15/Dec/2024 15:20:08] "GET / HTTP/1.1" 200 -
+2024-12-15 15:20:09,070 - INFO - 127.0.0.1 - - [15/Dec/2024 15:20:09] "GET / HTTP/1.1" 200 -
+2024-12-15 15:20:09,307 - INFO - 127.0.0.1 - - [15/Dec/2024 15:20:09] "GET / HTTP/1.1" 200 -
+2024-12-15 15:21:24,382 - INFO - Starting encode request
+2024-12-15 15:21:24,458 - INFO - Saving file to uploads\Jazz.wav
+2024-12-15 15:21:24,499 - INFO - Starting encoding process
+2024-12-15 15:21:24,502 - INFO - Starting encoding process for file: uploads\Jazz.wav
+2024-12-15 15:21:24,506 - INFO - Applying key-based scrambling to message
+2024-12-15 15:21:24,694 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:21:24,699 - INFO - Message length: 22 characters
+2024-12-15 15:21:24,702 - INFO - Binary length: 176 bits
+2024-12-15 15:21:24,717 - INFO - Encoding completed successfully
+2024-12-15 15:21:24,721 - INFO - Modified bytes: 176
+2024-12-15 15:21:24,730 - INFO - Encoding time: 0.21 seconds
+2024-12-15 15:21:24,737 - INFO - Encoding successful
+2024-12-15 15:21:24,747 - INFO - Cleaned up temporary file uploads\Jazz.wav
+2024-12-15 15:21:24,760 - INFO - 127.0.0.1 - - [15/Dec/2024 15:21:24] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:21:46,847 - INFO - Starting decode request
+2024-12-15 15:21:46,853 - WARNING - No decryption key provided
+2024-12-15 15:21:46,855 - INFO - 127.0.0.1 - - [15/Dec/2024 15:21:46] "[31m[1mPOST /decode HTTP/1.1[0m" 400 -
+2024-12-15 15:21:50,636 - INFO - Starting decode request
+2024-12-15 15:21:50,644 - WARNING - No decryption key provided
+2024-12-15 15:21:50,645 - INFO - 127.0.0.1 - - [15/Dec/2024 15:21:50] "[31m[1mPOST /decode HTTP/1.1[0m" 400 -
+2024-12-15 15:21:51,300 - INFO - Starting decode request
+2024-12-15 15:21:51,306 - WARNING - No decryption key provided
+2024-12-15 15:21:51,307 - INFO - 127.0.0.1 - - [15/Dec/2024 15:21:51] "[31m[1mPOST /decode HTTP/1.1[0m" 400 -
+2024-12-15 15:21:51,540 - INFO - Starting decode request
+2024-12-15 15:21:51,547 - WARNING - No decryption key provided
+2024-12-15 15:21:51,548 - INFO - 127.0.0.1 - - [15/Dec/2024 15:21:51] "[31m[1mPOST /decode HTTP/1.1[0m" 400 -
+2024-12-15 15:24:02,108 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:24:02,252 - INFO -  * Restarting with stat
+2024-12-15 15:24:03,157 - WARNING -  * Debugger is active!
+2024-12-15 15:24:03,169 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:24:33,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:24:33,777 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:24:33,781 - INFO -  * Restarting with stat
+2024-12-15 15:24:34,615 - WARNING -  * Debugger is active!
+2024-12-15 15:24:34,622 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:24:41,382 - INFO - 127.0.0.1 - - [15/Dec/2024 15:24:41] "GET / HTTP/1.1" 200 -
+2024-12-15 15:24:52,279 - INFO - 127.0.0.1 - - [15/Dec/2024 15:24:52] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:24:54,353 - INFO - 127.0.0.1 - - [15/Dec/2024 15:24:54] "GET / HTTP/1.1" 200 -
+2024-12-15 15:25:15,606 - INFO - Starting encode request
+2024-12-15 15:25:15,614 - WARNING - Key too short
+2024-12-15 15:25:15,615 - INFO - 127.0.0.1 - - [15/Dec/2024 15:25:15] "[31m[1mPOST /encode HTTP/1.1[0m" 400 -
+2024-12-15 15:25:21,460 - INFO - Starting encode request
+2024-12-15 15:25:21,466 - WARNING - No encryption key provided
+2024-12-15 15:25:21,467 - INFO - 127.0.0.1 - - [15/Dec/2024 15:25:21] "[31m[1mPOST /encode HTTP/1.1[0m" 400 -
+2024-12-15 15:25:22,933 - INFO - Starting encode request
+2024-12-15 15:25:22,939 - WARNING - No encryption key provided
+2024-12-15 15:25:22,941 - INFO - 127.0.0.1 - - [15/Dec/2024 15:25:22] "[31m[1mPOST /encode HTTP/1.1[0m" 400 -
+2024-12-15 15:25:23,126 - INFO - Starting encode request
+2024-12-15 15:25:23,133 - WARNING - No encryption key provided
+2024-12-15 15:25:23,134 - INFO - 127.0.0.1 - - [15/Dec/2024 15:25:23] "[31m[1mPOST /encode HTTP/1.1[0m" 400 -
+2024-12-15 15:25:53,792 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:25:53,891 - INFO -  * Restarting with stat
+2024-12-15 15:25:54,708 - WARNING -  * Debugger is active!
+2024-12-15 15:25:54,713 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:26:01,485 - INFO - 127.0.0.1 - - [15/Dec/2024 15:26:01] "GET / HTTP/1.1" 200 -
+2024-12-15 15:26:13,041 - INFO - Starting encode request
+2024-12-15 15:26:13,053 - INFO - Saving file to uploads\Jazz.wav
+2024-12-15 15:26:13,058 - INFO - Starting encoding process
+2024-12-15 15:26:13,059 - INFO - No encryption key provided, encoding without encryption
+2024-12-15 15:26:13,060 - INFO - Starting encoding process for file: uploads\Jazz.wav
+2024-12-15 15:26:13,060 - INFO - No encryption key provided, storing message as plaintext
+2024-12-15 15:26:13,096 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:26:13,100 - INFO - Message length: 18 characters
+2024-12-15 15:26:13,101 - INFO - Binary length: 144 bits
+2024-12-15 15:26:13,107 - INFO - Encoding completed successfully
+2024-12-15 15:26:13,110 - INFO - Modified bytes: 144
+2024-12-15 15:26:13,111 - INFO - Encoding time: 0.05 seconds
+2024-12-15 15:26:13,113 - INFO - Encoding successful
+2024-12-15 15:26:13,116 - INFO - Cleaned up temporary file uploads\Jazz.wav
+2024-12-15 15:26:13,118 - INFO - 127.0.0.1 - - [15/Dec/2024 15:26:13] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:26:22,422 - INFO - Starting decode request
+2024-12-15 15:26:22,437 - INFO - Saving file to uploads\encoded.wav
+2024-12-15 15:26:22,446 - INFO - Starting decoding process
+2024-12-15 15:26:22,447 - INFO - Starting decoding process for file: uploads\encoded.wav
+2024-12-15 15:26:22,448 - ERROR - Error during decoding: name 'extracted' is not defined
+2024-12-15 15:26:22,450 - INFO - Cleaned up temporary file uploads\encoded.wav
+2024-12-15 15:26:22,451 - ERROR - Error in decode: name 'extracted' is not defined
+2024-12-15 15:26:22,466 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 363, in decode
+    message, is_encrypted = decode_audio(temp_path, key)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 213, in decode_audio
+    for i in range(0, len(extracted), 8):
+                          ^^^^^^^^^
+NameError: name 'extracted' is not defined
+
+2024-12-15 15:26:22,472 - INFO - 127.0.0.1 - - [15/Dec/2024 15:26:22] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2024-12-15 15:27:11,598 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:27:11,759 - INFO -  * Restarting with stat
+2024-12-15 15:27:12,638 - WARNING -  * Debugger is active!
+2024-12-15 15:27:12,644 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:27:17,788 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:27:17,789 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:27:17,791 - INFO -  * Restarting with stat
+2024-12-15 15:27:18,641 - WARNING -  * Debugger is active!
+2024-12-15 15:27:18,648 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:27:22,139 - INFO - Starting decode request
+2024-12-15 15:27:22,154 - INFO - Saving file to uploads\encoded.wav
+2024-12-15 15:27:22,163 - INFO - Starting decoding process
+2024-12-15 15:27:22,164 - INFO - Starting decoding process for file: uploads\encoded.wav
+2024-12-15 15:27:22,418 - INFO - Extracted 976398 bits
+2024-12-15 15:27:22,419 - INFO - Decoding completed successfully
+2024-12-15 15:27:22,420 - INFO - Decoded message length: 7 characters
+2024-12-15 15:27:22,421 - INFO - Decoding time: 0.26 seconds
+2024-12-15 15:27:22,425 - INFO - Successfully decoded message of length 7
+2024-12-15 15:27:22,427 - INFO - Cleaned up temporary file uploads\encoded.wav
+2024-12-15 15:27:22,430 - INFO - 127.0.0.1 - - [15/Dec/2024 15:27:22] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:27:39,460 - INFO - Starting encode request
+2024-12-15 15:27:39,466 - INFO - Saving file to uploads\Jazz.wav
+2024-12-15 15:27:39,474 - INFO - Starting encoding process
+2024-12-15 15:27:39,475 - INFO - Using encryption with provided key
+2024-12-15 15:27:39,475 - INFO - Starting encoding process for file: uploads\Jazz.wav
+2024-12-15 15:27:39,477 - INFO - Applying key-based scrambling to message
+2024-12-15 15:27:39,500 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:27:39,501 - INFO - Message length: 22 characters
+2024-12-15 15:27:39,502 - INFO - Binary length: 176 bits
+2024-12-15 15:27:39,504 - INFO - Encoding completed successfully
+2024-12-15 15:27:39,505 - INFO - Modified bytes: 176
+2024-12-15 15:27:39,505 - INFO - Encoding time: 0.03 seconds
+2024-12-15 15:27:39,506 - INFO - Encoding successful
+2024-12-15 15:27:39,507 - INFO - Cleaned up temporary file uploads\Jazz.wav
+2024-12-15 15:27:39,509 - INFO - 127.0.0.1 - - [15/Dec/2024 15:27:39] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:27:48,396 - INFO - Starting decode request
+2024-12-15 15:27:48,408 - INFO - Saving file to uploads\encoded_1.wav
+2024-12-15 15:27:48,416 - INFO - Starting decoding process
+2024-12-15 15:27:48,417 - INFO - Starting decoding process for file: uploads\encoded_1.wav
+2024-12-15 15:27:48,686 - INFO - Extracted 976398 bits
+2024-12-15 15:27:48,687 - ERROR - Error during decoding: This message is encrypted and requires a key to decode
+2024-12-15 15:27:48,689 - ERROR - Error in decode: [WinError 32] The process cannot access the file because it is being used by another process: 'uploads\\encoded_1.wav'
+2024-12-15 15:27:48,692 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 375, in decode
+    message, is_encrypted = decode_audio(temp_path, key)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 241, in decode_audio
+    raise ValueError("This message is encrypted and requires a key to decode")
+ValueError: This message is encrypted and requires a key to decode
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 393, in decode
+    os.remove(temp_path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'uploads\\encoded_1.wav'
+
+2024-12-15 15:27:48,705 - INFO - 127.0.0.1 - - [15/Dec/2024 15:27:48] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2024-12-15 15:28:27,152 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:28:27,369 - INFO -  * Restarting with stat
+2024-12-15 15:28:29,410 - WARNING -  * Debugger is active!
+2024-12-15 15:28:29,422 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:28:41,373 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:28:41,374 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:28:41,377 - INFO -  * Restarting with stat
+2024-12-15 15:28:43,026 - WARNING -  * Debugger is active!
+2024-12-15 15:28:43,042 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:28:43,511 - INFO - 127.0.0.1 - - [15/Dec/2024 15:28:43] "GET / HTTP/1.1" 200 -
+2024-12-15 15:28:51,804 - INFO - Starting decode request
+2024-12-15 15:28:51,811 - INFO - Saving file to uploads\temp_1734256731_encoded_1.wav
+2024-12-15 15:28:51,817 - INFO - Starting decoding process
+2024-12-15 15:28:51,817 - INFO - Starting decoding process for file: uploads\temp_1734256731_encoded_1.wav
+2024-12-15 15:28:51,970 - INFO - Extracted 976398 bits
+2024-12-15 15:28:51,970 - INFO - Cleaned up temporary file uploads\temp_1734256731_encoded_1.wav
+2024-12-15 15:28:51,970 - ERROR - Error in decode: This message is encrypted and requires a key to decode
+2024-12-15 15:28:51,971 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 372, in decode
+    message, is_encrypted = decode_audio(temp_path, key)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 236, in decode_audio
+    raise ValueError("This message is encrypted and requires a key to decode")
+ValueError: This message is encrypted and requires a key to decode
+
+2024-12-15 15:28:51,976 - INFO - 127.0.0.1 - - [15/Dec/2024 15:28:51] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2024-12-15 15:30:09,117 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:30:09,119 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:30:09,122 - INFO -  * Restarting with stat
+2024-12-15 15:30:09,879 - WARNING -  * Debugger is active!
+2024-12-15 15:30:09,884 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:30:11,583 - INFO - 127.0.0.1 - - [15/Dec/2024 15:30:11] "GET / HTTP/1.1" 200 -
+2024-12-15 15:30:20,361 - INFO - Starting decode request
+2024-12-15 15:30:20,377 - INFO - Saving file to uploads\temp_1734256820_encoded_1.wav
+2024-12-15 15:30:20,389 - INFO - Starting decoding process
+2024-12-15 15:30:20,390 - INFO - Starting decoding process for file: uploads\temp_1734256820_encoded_1.wav
+2024-12-15 15:30:20,641 - INFO - Extracted 976398 bits
+2024-12-15 15:30:20,643 - INFO - Cleaned up temporary file uploads\temp_1734256820_encoded_1.wav
+2024-12-15 15:30:20,643 - ERROR - Error in decode: This message is encrypted and requires a key to decode
+2024-12-15 15:30:20,645 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 372, in decode
+    message, is_encrypted = decode_audio(temp_path, key)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 236, in decode_audio
+    raise ValueError("This message is encrypted and requires a key to decode")
+ValueError: This message is encrypted and requires a key to decode
+
+2024-12-15 15:30:20,653 - INFO - 127.0.0.1 - - [15/Dec/2024 15:30:20] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2024-12-15 15:32:05,802 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:32:05,803 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:32:05,805 - INFO -  * Restarting with stat
+2024-12-15 15:32:07,213 - WARNING -  * Debugger is active!
+2024-12-15 15:32:07,225 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:32:11,574 - INFO - 127.0.0.1 - - [15/Dec/2024 15:32:11] "GET / HTTP/1.1" 200 -
+2024-12-15 15:32:17,467 - INFO - Starting decode request
+2024-12-15 15:32:17,483 - INFO - Saving file to uploads\temp_1734256937_encoded_1.wav
+2024-12-15 15:32:17,490 - INFO - Starting decoding process
+2024-12-15 15:32:17,491 - INFO - Starting decoding process for file: uploads\temp_1734256937_encoded_1.wav
+2024-12-15 15:32:17,716 - INFO - Extracted 976398 bits
+2024-12-15 15:32:17,718 - INFO - Cleaned up temporary file uploads\temp_1734256937_encoded_1.wav
+2024-12-15 15:32:17,719 - ERROR - Error in decode: This message is encrypted and requires a key to decode
+2024-12-15 15:32:17,721 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 372, in decode
+    message, is_encrypted = decode_audio(temp_path, key)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sunil Patil\OneDrive\Documents\web site\ai test\test3\app.py", line 236, in decode_audio
+    raise ValueError("This message is encrypted and requires a key to decode")
+ValueError: This message is encrypted and requires a key to decode
+
+2024-12-15 15:32:17,730 - INFO - 127.0.0.1 - - [15/Dec/2024 15:32:17] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2024-12-15 15:35:42,829 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:35:42,831 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:35:42,836 - INFO -  * Restarting with stat
+2024-12-15 15:35:44,548 - WARNING -  * Debugger is active!
+2024-12-15 15:35:44,554 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:35:46,776 - INFO - 127.0.0.1 - - [15/Dec/2024 15:35:46] "GET / HTTP/1.1" 200 -
+2024-12-15 15:36:02,164 - INFO - Starting decode request
+2024-12-15 15:36:02,172 - INFO - Saving file to uploads\temp_1734257162_encoded_1.wav
+2024-12-15 15:36:02,178 - INFO - Starting decoding process
+2024-12-15 15:36:02,178 - INFO - Starting decoding process for file: uploads\temp_1734257162_encoded_1.wav
+2024-12-15 15:36:02,326 - INFO - Starting decode request
+2024-12-15 15:36:02,390 - INFO - Extracted 976398 bits
+2024-12-15 15:36:02,395 - INFO - Successfully decoded message of length 7
+2024-12-15 15:36:02,397 - INFO - Cleaned up temporary file uploads\temp_1734257162_encoded_1.wav
+2024-12-15 15:36:02,399 - INFO - 127.0.0.1 - - [15/Dec/2024 15:36:02] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:36:02,400 - INFO - Saving file to uploads\temp_1734257162_encoded_1.wav
+2024-12-15 15:36:02,406 - INFO - Starting decoding process
+2024-12-15 15:36:02,406 - INFO - Starting decoding process for file: uploads\temp_1734257162_encoded_1.wav
+2024-12-15 15:36:02,583 - INFO - Extracted 976398 bits
+2024-12-15 15:36:02,603 - INFO - Successfully decoded message of length 7
+2024-12-15 15:36:02,605 - INFO - Cleaned up temporary file uploads\temp_1734257162_encoded_1.wav
+2024-12-15 15:36:02,607 - INFO - 127.0.0.1 - - [15/Dec/2024 15:36:02] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:37:11,202 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:37:11,387 - INFO -  * Restarting with stat
+2024-12-15 15:37:12,822 - WARNING -  * Debugger is active!
+2024-12-15 15:37:12,828 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:37:17,498 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:37:17,657 - INFO -  * Restarting with stat
+2024-12-15 15:37:18,977 - WARNING -  * Debugger is active!
+2024-12-15 15:37:19,014 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:37:20,976 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:37:21,862 - INFO -  * Restarting with stat
+2024-12-15 15:37:23,710 - WARNING -  * Debugger is active!
+2024-12-15 15:37:23,723 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:37:32,379 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:37:32,380 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:37:32,384 - INFO -  * Restarting with stat
+2024-12-15 15:37:33,778 - WARNING -  * Debugger is active!
+2024-12-15 15:37:33,785 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:37:35,519 - INFO - 127.0.0.1 - - [15/Dec/2024 15:37:35] "GET / HTTP/1.1" 200 -
+2024-12-15 15:37:39,782 - INFO - 127.0.0.1 - - [15/Dec/2024 15:37:39] "GET / HTTP/1.1" 200 -
+2024-12-15 15:37:58,874 - INFO - Starting encode request
+2024-12-15 15:37:58,883 - INFO - Saving file to uploads\temp_1734257278_Jazz.wav
+2024-12-15 15:37:58,887 - INFO - Starting encoding process
+2024-12-15 15:37:58,887 - INFO - No encryption key provided, encoding without encryption
+2024-12-15 15:37:58,888 - INFO - Starting encoding process for file: uploads\temp_1734257278_Jazz.wav
+2024-12-15 15:37:58,888 - INFO - No encryption key provided, storing message as plaintext
+2024-12-15 15:37:58,913 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:37:58,914 - INFO - Message length: 18 characters
+2024-12-15 15:37:58,915 - INFO - Binary length: 144 bits
+2024-12-15 15:37:58,917 - INFO - Encoding successful
+2024-12-15 15:37:58,918 - INFO - Cleaned up temporary file uploads\temp_1734257278_Jazz.wav
+2024-12-15 15:37:58,920 - INFO - 127.0.0.1 - - [15/Dec/2024 15:37:58] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:38:17,436 - INFO - Starting decode request
+2024-12-15 15:38:17,441 - INFO - Saving file to uploads\temp_1734257297_encoded.wav
+2024-12-15 15:38:17,445 - INFO - Starting decoding process for file: uploads\temp_1734257297_encoded.wav
+2024-12-15 15:38:17,552 - INFO - Extracted 976398 bits
+2024-12-15 15:38:17,553 - INFO - Raw decoded message: PLAIN:reva hi
+2024-12-15 15:38:17,553 - INFO - Plain message found of length 7
+2024-12-15 15:38:17,556 - INFO - Successfully decoded message: reva hi...
+2024-12-15 15:38:17,557 - INFO - Cleaned up temporary file uploads\temp_1734257297_encoded.wav
+2024-12-15 15:38:17,558 - INFO - 127.0.0.1 - - [15/Dec/2024 15:38:17] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:38:33,829 - INFO - Starting encode request
+2024-12-15 15:38:33,836 - INFO - Saving file to uploads\temp_1734257313_Jazz.wav
+2024-12-15 15:38:33,840 - INFO - Starting encoding process
+2024-12-15 15:38:33,840 - INFO - Using encryption with provided key
+2024-12-15 15:38:33,841 - INFO - Starting encoding process for file: uploads\temp_1734257313_Jazz.wav
+2024-12-15 15:38:33,841 - INFO - Applying key-based scrambling to message
+2024-12-15 15:38:33,861 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:38:33,862 - INFO - Message length: 22 characters
+2024-12-15 15:38:33,863 - INFO - Binary length: 176 bits
+2024-12-15 15:38:33,866 - INFO - Encoding successful
+2024-12-15 15:38:33,868 - INFO - Cleaned up temporary file uploads\temp_1734257313_Jazz.wav
+2024-12-15 15:38:33,869 - INFO - 127.0.0.1 - - [15/Dec/2024 15:38:33] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:38:47,276 - INFO - Starting decode request
+2024-12-15 15:38:47,282 - INFO - Saving file to uploads\temp_1734257327_encoded_1.wav
+2024-12-15 15:38:47,291 - INFO - Starting decoding process for file: uploads\temp_1734257327_encoded_1.wav
+2024-12-15 15:38:47,435 - INFO - Starting decode request
+2024-12-15 15:38:47,445 - INFO - Extracted 976398 bits
+2024-12-15 15:38:47,453 - INFO - Raw decoded message: ENCRYPTED:ivarhe 
+2024-12-15 15:38:47,454 - INFO - Attempting to decrypt message of length 7
+2024-12-15 15:38:47,456 - INFO - Successfully decoded message:  arievh...
+2024-12-15 15:38:47,458 - INFO - Cleaned up temporary file uploads\temp_1734257327_encoded_1.wav
+2024-12-15 15:38:47,459 - INFO - Saving file to uploads\temp_1734257327_encoded_1.wav
+2024-12-15 15:38:47,460 - INFO - 127.0.0.1 - - [15/Dec/2024 15:38:47] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:38:47,467 - INFO - Starting decoding process for file: uploads\temp_1734257327_encoded_1.wav
+2024-12-15 15:38:47,584 - INFO - Extracted 976398 bits
+2024-12-15 15:38:47,585 - INFO - Raw decoded message: ENCRYPTED:ivarhe 
+2024-12-15 15:38:47,585 - INFO - Attempting to decrypt message of length 7
+2024-12-15 15:38:47,588 - INFO - Successfully decoded message:  arievh...
+2024-12-15 15:38:47,589 - INFO - Cleaned up temporary file uploads\temp_1734257327_encoded_1.wav
+2024-12-15 15:38:47,590 - INFO - 127.0.0.1 - - [15/Dec/2024 15:38:47] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:38:55,912 - INFO - Starting decode request
+2024-12-15 15:38:55,918 - INFO - Saving file to uploads\temp_1734257335_encoded_1.wav
+2024-12-15 15:38:55,923 - INFO - Starting decoding process for file: uploads\temp_1734257335_encoded_1.wav
+2024-12-15 15:38:56,049 - INFO - Extracted 976398 bits
+2024-12-15 15:38:56,049 - INFO - Raw decoded message: ENCRYPTED:ivarhe 
+2024-12-15 15:38:56,050 - INFO - Attempting to decrypt message of length 7
+2024-12-15 15:38:56,053 - INFO - Successfully decoded message:  arievh...
+2024-12-15 15:38:56,053 - INFO - Cleaned up temporary file uploads\temp_1734257335_encoded_1.wav
+2024-12-15 15:38:56,054 - INFO - 127.0.0.1 - - [15/Dec/2024 15:38:56] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:38:57,559 - INFO - Starting decode request
+2024-12-15 15:38:57,565 - INFO - Saving file to uploads\temp_1734257337_encoded_1.wav
+2024-12-15 15:38:57,569 - INFO - Starting decoding process for file: uploads\temp_1734257337_encoded_1.wav
+2024-12-15 15:38:57,677 - INFO - Extracted 976398 bits
+2024-12-15 15:38:57,678 - INFO - Raw decoded message: ENCRYPTED:ivarhe 
+2024-12-15 15:38:57,678 - INFO - Attempting to decrypt message of length 7
+2024-12-15 15:38:57,681 - INFO - Successfully decoded message:  arievh...
+2024-12-15 15:38:57,682 - INFO - Cleaned up temporary file uploads\temp_1734257337_encoded_1.wav
+2024-12-15 15:38:57,683 - INFO - 127.0.0.1 - - [15/Dec/2024 15:38:57] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:38:58,556 - INFO - Starting decode request
+2024-12-15 15:38:58,563 - INFO - Saving file to uploads\temp_1734257338_encoded_1.wav
+2024-12-15 15:38:58,567 - INFO - Starting decoding process for file: uploads\temp_1734257338_encoded_1.wav
+2024-12-15 15:38:58,675 - INFO - Extracted 976398 bits
+2024-12-15 15:38:58,676 - INFO - Raw decoded message: ENCRYPTED:ivarhe 
+2024-12-15 15:38:58,676 - INFO - Attempting to decrypt message of length 7
+2024-12-15 15:38:58,679 - INFO - Successfully decoded message:  arievh...
+2024-12-15 15:38:58,680 - INFO - Cleaned up temporary file uploads\temp_1734257338_encoded_1.wav
+2024-12-15 15:38:58,681 - INFO - 127.0.0.1 - - [15/Dec/2024 15:38:58] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:39:33,172 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:39:33,318 - INFO -  * Restarting with stat
+2024-12-15 15:39:34,957 - WARNING -  * Debugger is active!
+2024-12-15 15:39:34,974 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:39:45,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:39:45,490 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:39:45,492 - INFO -  * Restarting with stat
+2024-12-15 15:39:46,200 - WARNING -  * Debugger is active!
+2024-12-15 15:39:46,205 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:39:49,284 - INFO - 127.0.0.1 - - [15/Dec/2024 15:39:49] "GET / HTTP/1.1" 200 -
+2024-12-15 15:40:15,878 - INFO - Starting encode request
+2024-12-15 15:40:15,911 - INFO - Saving file to uploads\temp_1734257415_Chorus.wav
+2024-12-15 15:40:15,915 - INFO - Starting encoding process
+2024-12-15 15:40:15,916 - INFO - Using encryption with provided key
+2024-12-15 15:40:15,916 - INFO - Starting encoding process for file: uploads\temp_1734257415_Chorus.wav
+2024-12-15 15:40:15,917 - INFO - Applying key-based scrambling to message
+2024-12-15 15:40:15,937 - INFO - Maximum message length: 118530 characters
+2024-12-15 15:40:15,938 - INFO - Message length: 22 characters
+2024-12-15 15:40:15,938 - INFO - Binary length: 176 bits
+2024-12-15 15:40:15,940 - INFO - Encoding successful
+2024-12-15 15:40:15,942 - INFO - Cleaned up temporary file uploads\temp_1734257415_Chorus.wav
+2024-12-15 15:40:15,944 - INFO - 127.0.0.1 - - [15/Dec/2024 15:40:15] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:40:25,638 - INFO - Starting decode request
+2024-12-15 15:40:25,644 - INFO - Saving file to uploads\temp_1734257425_encoded_2.wav
+2024-12-15 15:40:25,648 - INFO - Starting decoding process for file: uploads\temp_1734257425_encoded_2.wav
+2024-12-15 15:40:25,768 - INFO - Extracted 948246 bits
+2024-12-15 15:40:25,769 - INFO - Raw decoded message: ENCRYPTED:ahvre i
+2024-12-15 15:40:25,769 - INFO - Attempting to decrypt message of length 7
+2024-12-15 15:40:25,772 - INFO - Successfully decoded message: r vahei...
+2024-12-15 15:40:25,773 - INFO - Cleaned up temporary file uploads\temp_1734257425_encoded_2.wav
+2024-12-15 15:40:25,774 - INFO - 127.0.0.1 - - [15/Dec/2024 15:40:25] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:40:41,343 - INFO - Starting encode request
+2024-12-15 15:40:41,348 - INFO - Saving file to uploads\temp_1734257441_Chorus.wav
+2024-12-15 15:40:41,352 - INFO - Starting encoding process
+2024-12-15 15:40:41,352 - INFO - Using encryption with provided key
+2024-12-15 15:40:41,353 - INFO - Starting encoding process for file: uploads\temp_1734257441_Chorus.wav
+2024-12-15 15:40:41,354 - INFO - Applying key-based scrambling to message
+2024-12-15 15:40:41,371 - INFO - Maximum message length: 118530 characters
+2024-12-15 15:40:41,372 - INFO - Message length: 22 characters
+2024-12-15 15:40:41,373 - INFO - Binary length: 176 bits
+2024-12-15 15:40:41,375 - INFO - Encoding successful
+2024-12-15 15:40:41,376 - INFO - Cleaned up temporary file uploads\temp_1734257441_Chorus.wav
+2024-12-15 15:40:41,377 - INFO - 127.0.0.1 - - [15/Dec/2024 15:40:41] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:40:57,023 - INFO - Starting decode request
+2024-12-15 15:40:57,029 - INFO - Saving file to uploads\temp_1734257457_encoded_3.wav
+2024-12-15 15:40:57,034 - INFO - Starting decoding process for file: uploads\temp_1734257457_encoded_3.wav
+2024-12-15 15:40:57,159 - INFO - Extracted 948246 bits
+2024-12-15 15:40:57,159 - INFO - Raw decoded message: ENCRYPTED:eahirv 
+2024-12-15 15:40:57,160 - INFO - Attempting to decrypt message of length 7
+2024-12-15 15:40:57,162 - INFO - Successfully decoded message: aiv ehr...
+2024-12-15 15:40:57,163 - INFO - Cleaned up temporary file uploads\temp_1734257457_encoded_3.wav
+2024-12-15 15:40:57,165 - INFO - 127.0.0.1 - - [15/Dec/2024 15:40:57] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:42:16,991 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:42:17,160 - INFO -  * Restarting with stat
+2024-12-15 15:42:18,440 - WARNING -  * Debugger is active!
+2024-12-15 15:42:18,446 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:42:30,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:42:30,877 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:42:30,880 - INFO -  * Restarting with stat
+2024-12-15 15:42:31,735 - WARNING -  * Debugger is active!
+2024-12-15 15:42:31,820 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:42:34,849 - INFO - 127.0.0.1 - - [15/Dec/2024 15:42:34] "GET / HTTP/1.1" 200 -
+2024-12-15 15:42:55,661 - INFO - Starting encode request
+2024-12-15 15:42:55,670 - INFO - Saving file to uploads\temp_1734257575_Jazz.wav
+2024-12-15 15:42:55,675 - INFO - Starting encoding process
+2024-12-15 15:42:55,676 - INFO - Using encryption with provided key
+2024-12-15 15:42:55,676 - INFO - Starting encoding process for file: uploads\temp_1734257575_Jazz.wav
+2024-12-15 15:42:55,677 - INFO - Applying encryption with key length: 4
+2024-12-15 15:42:55,678 - INFO - Message scrambled with key, length: 7
+2024-12-15 15:42:55,678 - INFO - Message encrypted and marked as encrypted
+2024-12-15 15:42:55,704 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:42:55,705 - INFO - Message length: 22 characters
+2024-12-15 15:42:55,705 - INFO - Binary length: 176 bits
+2024-12-15 15:42:55,709 - INFO - Encoding successful
+2024-12-15 15:42:55,711 - INFO - Cleaned up temporary file uploads\temp_1734257575_Jazz.wav
+2024-12-15 15:42:55,712 - INFO - 127.0.0.1 - - [15/Dec/2024 15:42:55] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:43:06,192 - INFO - Starting decode request
+2024-12-15 15:43:06,198 - INFO - Saving file to uploads\temp_1734257586_encoded.wav
+2024-12-15 15:43:06,203 - INFO - Starting decoding process for file: uploads\temp_1734257586_encoded.wav
+2024-12-15 15:43:06,319 - INFO - Extracted 976398 bits
+2024-12-15 15:43:06,319 - INFO - Raw decoded message: ENCRYPTED:a vrhei
+2024-12-15 15:43:06,320 - INFO - Attempting to decrypt message with key length: 4
+2024-12-15 15:43:06,320 - INFO - Message unscrambled with key, length: 7
+2024-12-15 15:43:06,320 - INFO - Message successfully decrypted
+2024-12-15 15:43:06,323 - INFO - Successfully decoded message: rhvae i...
+2024-12-15 15:43:06,324 - INFO - Cleaned up temporary file uploads\temp_1734257586_encoded.wav
+2024-12-15 15:43:06,325 - INFO - 127.0.0.1 - - [15/Dec/2024 15:43:06] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:44:34,301 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:44:34,661 - INFO -  * Restarting with stat
+2024-12-15 15:44:35,589 - WARNING -  * Debugger is active!
+2024-12-15 15:44:35,594 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:44:44,449 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-15 15:44:44,450 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-15 15:44:44,453 - INFO -  * Restarting with stat
+2024-12-15 15:44:45,182 - WARNING -  * Debugger is active!
+2024-12-15 15:44:45,187 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:44:47,176 - INFO - 127.0.0.1 - - [15/Dec/2024 15:44:47] "GET / HTTP/1.1" 200 -
+2024-12-15 15:45:02,488 - INFO - Starting encode request
+2024-12-15 15:45:02,494 - INFO - Saving file to uploads\temp_1734257702_Jazz.wav
+2024-12-15 15:45:02,499 - INFO - Starting encoding process
+2024-12-15 15:45:02,499 - INFO - Using encryption with provided key
+2024-12-15 15:45:02,500 - INFO - Starting encoding process for file: uploads\temp_1734257702_Jazz.wav
+2024-12-15 15:45:02,501 - INFO - Applying encryption with key length: 4
+2024-12-15 15:45:02,501 - INFO - Message scrambled with key, length: 7
+2024-12-15 15:45:02,502 - INFO - Message encrypted and marked as encrypted
+2024-12-15 15:45:02,520 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:45:02,521 - INFO - Message length: 22 characters
+2024-12-15 15:45:02,521 - INFO - Binary length: 176 bits
+2024-12-15 15:45:02,523 - INFO - Encoding successful
+2024-12-15 15:45:02,524 - INFO - Cleaned up temporary file uploads\temp_1734257702_Jazz.wav
+2024-12-15 15:45:02,525 - INFO - 127.0.0.1 - - [15/Dec/2024 15:45:02] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:45:11,212 - INFO - Starting decode request
+2024-12-15 15:45:11,219 - INFO - Saving file to uploads\temp_1734257711_encoded_1.wav
+2024-12-15 15:45:11,224 - INFO - Starting decoding process for file: uploads\temp_1734257711_encoded_1.wav
+2024-12-15 15:45:11,367 - INFO - Extracted 976398 bits
+2024-12-15 15:45:11,367 - INFO - Raw decoded message: ENCRYPTED:yizu6sm
+2024-12-15 15:45:11,368 - INFO - Attempting to decrypt message with key length: 4
+2024-12-15 15:45:11,368 - INFO - Message unscrambled with key, length: 7
+2024-12-15 15:45:11,368 - INFO - Message successfully decrypted
+2024-12-15 15:45:11,371 - INFO - Successfully decoded message: reva hi...
+2024-12-15 15:45:11,372 - INFO - Cleaned up temporary file uploads\temp_1734257711_encoded_1.wav
+2024-12-15 15:45:11,375 - INFO - 127.0.0.1 - - [15/Dec/2024 15:45:11] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:45:18,696 - INFO - Starting encode request
+2024-12-15 15:45:18,703 - INFO - Saving file to uploads\temp_1734257718_Jazz.wav
+2024-12-15 15:45:18,707 - INFO - Starting encoding process
+2024-12-15 15:45:18,708 - INFO - Using encryption with provided key
+2024-12-15 15:45:18,708 - INFO - Starting encoding process for file: uploads\temp_1734257718_Jazz.wav
+2024-12-15 15:45:18,709 - INFO - Applying encryption with key length: 4
+2024-12-15 15:45:18,709 - INFO - Message scrambled with key, length: 7
+2024-12-15 15:45:18,710 - INFO - Message encrypted and marked as encrypted
+2024-12-15 15:45:18,734 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:45:18,735 - INFO - Message length: 22 characters
+2024-12-15 15:45:18,735 - INFO - Binary length: 176 bits
+2024-12-15 15:45:18,737 - INFO - Encoding successful
+2024-12-15 15:45:18,738 - INFO - Cleaned up temporary file uploads\temp_1734257718_Jazz.wav
+2024-12-15 15:45:18,739 - INFO - 127.0.0.1 - - [15/Dec/2024 15:45:18] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:45:29,069 - INFO - Starting decode request
+2024-12-15 15:45:29,075 - INFO - Saving file to uploads\temp_1734257729_encoded_2.wav
+2024-12-15 15:45:29,079 - INFO - Starting decoding process for file: uploads\temp_1734257729_encoded_2.wav
+2024-12-15 15:45:29,193 - INFO - Extracted 976398 bits
+2024-12-15 15:45:29,194 - INFO - Raw decoded message: ENCRYPTED:yizu6ss
+2024-12-15 15:45:29,194 - INFO - Attempting to decrypt message with key length: 4
+2024-12-15 15:45:29,195 - INFO - Message unscrambled with key, length: 7
+2024-12-15 15:45:29,195 - INFO - Message successfully decrypted
+2024-12-15 15:45:29,198 - INFO - Successfully decoded message: reva ho...
+2024-12-15 15:45:29,199 - INFO - Cleaned up temporary file uploads\temp_1734257729_encoded_2.wav
+2024-12-15 15:45:29,201 - INFO - 127.0.0.1 - - [15/Dec/2024 15:45:29] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:45:31,591 - INFO - 127.0.0.1 - - [15/Dec/2024 15:45:31] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:45:39,903 - INFO - 127.0.0.1 - - [15/Dec/2024 15:45:39] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:45:59,389 - INFO - 127.0.0.1 - - [15/Dec/2024 15:45:59] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:46:00,888 - INFO - 127.0.0.1 - - [15/Dec/2024 15:46:00] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:46:44,182 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\app.py', reloading
+2024-12-15 15:46:44,299 - INFO -  * Restarting with stat
+2024-12-15 15:46:45,282 - WARNING -  * Debugger is active!
+2024-12-15 15:46:45,288 - INFO -  * Debugger PIN: 110-317-469
+2024-12-15 15:46:57,157 - INFO - 127.0.0.1 - - [15/Dec/2024 15:46:57] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:46:58,832 - INFO - 127.0.0.1 - - [15/Dec/2024 15:46:58] "GET / HTTP/1.1" 200 -
+2024-12-15 15:47:08,604 - INFO - Starting decode request
+2024-12-15 15:47:08,611 - INFO - Saving file to uploads\temp_1734257828_encoded_1.wav
+2024-12-15 15:47:08,615 - INFO - Starting decoding process for file: uploads\temp_1734257828_encoded_1.wav
+2024-12-15 15:47:08,736 - INFO - Extracted 976398 bits
+2024-12-15 15:47:08,737 - INFO - Raw decoded message: ENCRYPTED:yizu6sm
+2024-12-15 15:47:08,737 - INFO - Attempting to decrypt message with key length: 4
+2024-12-15 15:47:08,738 - INFO - Message unscrambled with key, length: 7
+2024-12-15 15:47:08,738 - INFO - Message successfully decrypted
+2024-12-15 15:47:08,740 - INFO - Successfully decoded message: reva hi...
+2024-12-15 15:47:08,741 - INFO - Cleaned up temporary file uploads\temp_1734257828_encoded_1.wav
+2024-12-15 15:47:08,743 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:08] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:47:12,287 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:12] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:47:16,960 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:16] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:47:19,214 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:19] "GET / HTTP/1.1" 200 -
+2024-12-15 15:47:20,390 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:20] "GET /history HTTP/1.1" 200 -
+2024-12-15 15:47:39,919 - INFO - Starting encode request
+2024-12-15 15:47:39,926 - INFO - Saving file to uploads\temp_1734257859_Jazz.wav
+2024-12-15 15:47:39,932 - INFO - Starting encoding process
+2024-12-15 15:47:39,932 - INFO - No encryption key provided, encoding without encryption
+2024-12-15 15:47:39,933 - INFO - Starting encoding process for file: uploads\temp_1734257859_Jazz.wav
+2024-12-15 15:47:39,934 - INFO - No encryption key provided, storing message as plaintext
+2024-12-15 15:47:39,953 - INFO - Maximum message length: 122049 characters
+2024-12-15 15:47:39,954 - INFO - Message length: 13 characters
+2024-12-15 15:47:39,954 - INFO - Binary length: 104 bits
+2024-12-15 15:47:39,956 - INFO - Encoding successful
+2024-12-15 15:47:39,958 - INFO - Cleaned up temporary file uploads\temp_1734257859_Jazz.wav
+2024-12-15 15:47:39,959 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:39] "POST /encode HTTP/1.1" 200 -
+2024-12-15 15:47:49,216 - INFO - Starting decode request
+2024-12-15 15:47:49,223 - INFO - Saving file to uploads\temp_1734257869_encoded_3.wav
+2024-12-15 15:47:49,227 - INFO - Starting decoding process for file: uploads\temp_1734257869_encoded_3.wav
+2024-12-15 15:47:49,358 - INFO - Extracted 976398 bits
+2024-12-15 15:47:49,358 - INFO - Raw decoded message: PLAIN:hi
+2024-12-15 15:47:49,359 - INFO - Plain message successfully decoded
+2024-12-15 15:47:49,361 - INFO - Successfully decoded message: hi...
+2024-12-15 15:47:49,362 - INFO - Cleaned up temporary file uploads\temp_1734257869_encoded_3.wav
+2024-12-15 15:47:49,363 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:49] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:47:54,834 - INFO - Starting decode request
+2024-12-15 15:47:54,842 - INFO - Saving file to uploads\temp_1734257874_encoded_3.wav
+2024-12-15 15:47:54,849 - INFO - Starting decoding process for file: uploads\temp_1734257874_encoded_3.wav
+2024-12-15 15:47:54,956 - INFO - Extracted 976398 bits
+2024-12-15 15:47:54,956 - INFO - Raw decoded message: PLAIN:hi
+2024-12-15 15:47:54,957 - INFO - Plain message successfully decoded
+2024-12-15 15:47:54,960 - INFO - Successfully decoded message: hi...
+2024-12-15 15:47:54,961 - INFO - Cleaned up temporary file uploads\temp_1734257874_encoded_3.wav
+2024-12-15 15:47:54,962 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:54] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:47:56,137 - INFO - Starting decode request
+2024-12-15 15:47:56,145 - INFO - Saving file to uploads\temp_1734257876_encoded_3.wav
+2024-12-15 15:47:56,151 - INFO - Starting decoding process for file: uploads\temp_1734257876_encoded_3.wav
+2024-12-15 15:47:56,259 - INFO - Extracted 976398 bits
+2024-12-15 15:47:56,260 - INFO - Raw decoded message: PLAIN:hi
+2024-12-15 15:47:56,260 - INFO - Plain message successfully decoded
+2024-12-15 15:47:56,263 - INFO - Successfully decoded message: hi...
+2024-12-15 15:47:56,264 - INFO - Cleaned up temporary file uploads\temp_1734257876_encoded_3.wav
+2024-12-15 15:47:56,266 - INFO - 127.0.0.1 - - [15/Dec/2024 15:47:56] "POST /decode HTTP/1.1" 200 -
+2024-12-15 15:51:02,367 - INFO -  * Detected change in 'C:\\Users\\Sunil Patil\\OneDrive\\Documents\\web site\\ai test\\test3\\init_db.py', reloading
+2024-12-15 15:51:02,506 - INFO -  * Restarting with stat
+2024-12-15 15:51:03,435 - WARNING -  * Debugger is active!
+2024-12-15 15:51:03,440 - INFO -  * Debugger PIN: 110-317-469
